@@ -3,7 +3,6 @@ package org.estafet.javaCoreApi;
 import java.io.IOException;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Random;
 import java.util.zip.ZipFile;
 
 public class CoreExample {
@@ -41,7 +40,7 @@ public class CoreExample {
         System.out.println(firstDouble + " + " + secondDouble + " = " + sum);
         System.out.println("----------------------------------");
 
-        ZipFile  zipFile = core.getTheContentOfZip(MY_DIRECTORY, ZIP_FILE);
+        ZipFile  zipFile = core.getTheContentOfZip(MY_DIRECTORY);
         // Using Math.toIntExact
         int countOfZippedFiles = Math.toIntExact(zipFile.stream().count());
         System.out.println("Count of zipped files: " + countOfZippedFiles);

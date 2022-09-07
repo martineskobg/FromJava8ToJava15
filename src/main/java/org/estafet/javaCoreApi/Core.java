@@ -1,12 +1,9 @@
 package org.estafet.javaCoreApi;
 
-import java.io.*;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-import java.util.zip.ZipInputStream;
 
 public class Core {
 
@@ -58,23 +55,16 @@ public class Core {
     public double sumTwoDoubles(double firstDouble, double secondDouble) {
         return Double.sum(firstDouble, secondDouble);
     }
+    
 
-    //Print the content and the number of files of a zip archive
-    public ZipFile getTheContentOfZip(String dir, String zipFileName) throws IOException {
-        ZipFile zipFile = new ZipFile(dir);
-       // ZipEntry zipEntry = zipFile.getEntry(zipFileName);
-        return zipFile;
-
-//        try(FileInputStream fis = new FileInputStream(zipFileName);
-//            BufferedInputStream bis = new BufferedInputStream(fis);
-//            ZipInputStream zis = new ZipInputStream(bis)){
-//
-//            ZipEntry zipEntry;
-//            while ((zipEntry = zis.getNextEntry()) != null){
-//                zipFileNames.add(zipEntry.getName());
-//
-//            }
-
+    /**
+     * Get the content of zip file
+     * @param dir string path to the zipped file
+     * @return ZipFile
+     * @throws IOException
+     */
+    public ZipFile getTheContentOfZip(String dir) throws IOException {
+        return new ZipFile(dir);
     }
 
 }

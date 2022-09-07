@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6f6f45-eceb-40ae-96c8-c80caa251911" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/Interfaces_default_and_static_methods/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/Interfaces_default_and_static_methods/MatemathicOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/Interfaces_default_and_static_methods/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/functional_interfaces_and_lambda_expressions/StringActionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaBase64/Base64Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/CoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaNIO/JavaNewIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaNIO/NioExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaOptional/JavaOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaOptional/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaParallelArraySorting/ParallelArrSortExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaStreamApi/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaStringJoiner/StringJoinerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaTimeApi/DateTimeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estafet/Interfaces_default_and_static_methods/MatemathicOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estafet/Interfaces_default_and_static_methods/MatemathicOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estafet/functional_interfaces_and_lambda_expressions/StringActionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estafet/functional_interfaces_and_lambda_expressions/StringActionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/CoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estafet/javaCoreApi/CoreExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +47,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Martin/Documents/Training Projects/CucumberNumberExpressions&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ParallelArrSortExample">
+  <component name="RunManager" selected="Application.CoreExample">
     <configuration name="Base64Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.estafet.javaBase64.Base64Example" />
       <module name="FromJava8ToJava15" />
@@ -90,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.estafet.javaOptional.OptionalExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.estafet.Interfaces_default_and_static_methods.Main" />
       <module name="FromJava8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.estafet.javaOptional.*" />
+          <option name="PATTERN" value="org.estafet.Interfaces_default_and_static_methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringJoinerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.estafet.javaStringJoiner.StringJoinerExample" />
+    <configuration name="StringActionImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.estafet.functional_interfaces_and_lambda_expressions.StringActionImpl" />
       <module name="FromJava8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.estafet.javaStringJoiner.*" />
+          <option name="PATTERN" value="org.estafet.functional_interfaces_and_lambda_expressions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelArrSortExample" />
-        <item itemvalue="Application.Base64Example" />
-        <item itemvalue="Application.StringJoinerExample" />
-        <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.CoreExample" />
+        <item itemvalue="Application.Base64Example" />
+        <item itemvalue="Application.StringActionImpl" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ParallelArrSortExample" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +135,7 @@
       <workItem from="1661418070767" duration="6639000" />
       <workItem from="1662220793201" duration="24006000" />
       <workItem from="1662389540700" duration="11750000" />
-      <workItem from="1662541859486" duration="2175000" />
+      <workItem from="1662541859486" duration="6450000" />
     </task>
     <servers />
   </component>
