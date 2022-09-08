@@ -4,8 +4,8 @@ import java.util.StringJoiner;
 
 public class StringJoinerExample {
     public static void main(String[] args) {
-        StringJoiner stringJoiner1 = new StringJoiner("@");
-        StringJoiner stringJoiner2 = new StringJoiner("*");
+        StringJoiner stringJoiner1 = new StringJoiner(",");
+        StringJoiner stringJoiner2 = new StringJoiner("@");
         // Add string in stringJoiner1
         stringJoiner1.add("Word1_in_strJoiner1");
         stringJoiner1.add("Word2_in_strJoiner1");

@@ -9,6 +9,7 @@ public class StreamExample {
         List<String> citiesWithCountry =
                 Arrays.asList("UK, London", "UK, Sheffield", "Austria, Vienna", "Austria, Graz", "France, Lion");
 
-        citiesWithCountry.stream().filter(c -> c.startsWith("Austria")).forEach(System.out::println);
+        citiesWithCountry.stream().filter(c -> c.startsWith("UK")).forEach(System.out::println);
+
     }
 }

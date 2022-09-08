@@ -1,4 +1,4 @@
-package org.estafet.javaNIO;
+package org.estafet.Interfaces_default_and_static_methods.javaBase64.javaNIO;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,7 +17,6 @@ public class JavaNewIO {
 
     /**
      * Get list of all files
-     *
      * @param dirName String - certain folder dir
      * @return List of Strings
      */
@@ -47,7 +46,7 @@ public class JavaNewIO {
     }
 
     /**
-     * Find files containing some specific word in a certain folder
+     * Find files containing some specific word in its name in a certain folder
      *
      * @param word String
      * @param dir  String

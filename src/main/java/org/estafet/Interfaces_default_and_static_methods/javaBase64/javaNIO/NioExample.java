@@ -1,4 +1,4 @@
-package org.estafet.javaNIO;
+package org.estafet.Interfaces_default_and_static_methods.javaBase64.javaNIO;
 
 import java.io.IOException;
 
@@ -22,7 +22,7 @@ public class NioExample {
         System.out.println("----------------------------------");
 
         System.out.println("\nPrint only a certain line of a file by reading it line by line by using Files.lines()");
-        System.out.println(javaNewIO.getLineOfAFile(1, MY_DIRECTORY, "text.txt"));
+        System.out.println(javaNewIO.getLineOfAFile(4, MY_DIRECTORY, "text.txt"));
         System.out.println("----------------------------------");
 
         System.out.println(" Print the content of the file without empty lines by reading it line by line by using BufferedReader.lines()");

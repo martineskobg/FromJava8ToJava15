@@ -1,4 +1,4 @@
-package org.estafet.javaBase64;
+package org.estafet.Interfaces_default_and_static_methods.javaBase64;
 
 import java.util.Base64;
 

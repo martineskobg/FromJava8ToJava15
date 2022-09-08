@@ -55,7 +55,7 @@ public class Core {
     public double sumTwoDoubles(double firstDouble, double secondDouble) {
         return Double.sum(firstDouble, secondDouble);
     }
-    
+
 
     /**
      * Get the content of zip file
