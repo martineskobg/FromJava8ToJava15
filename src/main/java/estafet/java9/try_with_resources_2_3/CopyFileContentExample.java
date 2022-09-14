@@ -5,7 +5,8 @@ import java.io.IOException;
 
 public class CopyFileContentExample {
     public static void main(String[] args) throws IOException {
-        final String MY_DIRECTORY = "C:\\Users\\Martin\\Downloads";
+        // *** TASK 1 Copy content of 2 files into another one *** //
+        final String MY_DIRECTORY = "src/main/resources/content/";
         final String FIRST_CONTENT_FILE_NAME = "file1.txt";
         final String SECOND_CONTENT_FILE_NAME = "file2.txt";
         final String TARGET_FILE_NAME = "target.txt";

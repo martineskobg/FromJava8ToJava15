@@ -6,7 +6,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class FileContent {
-
+    /**
+     * Copy content of file into another file
+     * @param content File
+     * @param target File
+     * @throws IOException
+     */
     public void copyFileContent(File content, File target) throws IOException {
         try (FileInputStream in = new FileInputStream(content);
              FileOutputStream out = new FileOutputStream(target, true)) {

@@ -1,9 +1,7 @@
 package estafet.java12;
 
 import java.io.IOException;
-import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -16,6 +14,7 @@ import static estafet.java12.CompactFormatting.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         // *************** Task 1 Java 12 **************************//
+        System.out.println("\nTask 1");
         Path path1 = Paths.get("src/main/resources/file1.txt");
         Path path2 = Paths.get("src/main/resources/file2.txt");
         Path path3 = Paths.get("src/main/resources/file3.txt");
@@ -34,6 +33,7 @@ public class Main {
         System.out.println("Result after compering file2 and fil3: " + mismatchFile2andFile3);
 
         // *************** Task 2 Java 12 **************************//
+        System.out.println("\nTask 2");
         NumberFormat nfShort = setShortFormat();
         NumberFormat nfLong = setLongFormat();
 
@@ -55,7 +55,6 @@ public class Main {
         printCompactRoundedDownShort(nfShort, 1500000);
         printCompactRoundedDownShort(nfShort, 1200000000);
 
-
         // Print compact rounded up long format
         System.out.println("\nPrint compact rounded up long format");
         printCompactRoundedUpLong(nfLong, 1500);
@@ -63,6 +62,7 @@ public class Main {
         printCompactRoundedUpLong(nfLong, 1200000000);
 
         // *************** Task 3 Java 12 **************************//
+        System.out.println("\nTask 3");
         List<Student> students = new ArrayList<>();
         students.add(new Student("Martin", 5.50));
         students.add(new Student("Ivo", 3.40));
@@ -71,7 +71,6 @@ public class Main {
         students.add(new Student("Rado", 6.00));
         students.add(new Student("Maria", 6.00));
         students.add(new Student("Ivan", 3.40));
-
 
         HashMap<String, Student> result = students.stream().collect(
                 Collectors.teeing(
@@ -102,6 +101,7 @@ public class Main {
         System.out.println();
 
         // *************** Task 4 Java 12 **************************//
+        System.out.println("\nTask 4");
         String str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                 "\nLorem Ipsum has been the industry's standard dummy";
 

@@ -4,9 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// Local Variable Type Interface (LVTI)
+// Local Variable Type Inference or LVTI in Java 10
 public class Lvti {
 
+    /**
+     * Finds the first number greater than the given number
+     * @param intList Int
+     * @param number int
+     * @throws Exception
+     */
     public static void findFirstBigger(List<Integer> intList, int number) throws Exception {
 
         System.out.println(intList.stream()
@@ -15,6 +21,10 @@ public class Lvti {
                 .orElseThrow(NoSuchElementException::new));
     }
 
+    /**
+     * Prints List of int
+     * I use the key word var to skip the type declaration associated with local variables
+     */
     public static void printIntList() {
 
         int[] myArr = new int[]{1, 2, 3, 4, 5};
@@ -31,6 +41,4 @@ public class Lvti {
             System.out.println(y);
         }
     }
-
-
 }

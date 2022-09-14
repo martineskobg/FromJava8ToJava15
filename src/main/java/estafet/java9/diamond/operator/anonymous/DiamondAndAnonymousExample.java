@@ -8,8 +8,6 @@ public class DiamondAndAnonymousExample {
                 return param;
             }
         };
-
-
         MyAnonymous<String> stringMyAnonymous = new MyAnonymous<String>() {
             @Override
             String getParam(String param) {
@@ -18,8 +16,5 @@ public class DiamondAndAnonymousExample {
         };
         System.out.println(integerMyAnonymous.getParam(100));
         System.out.println(stringMyAnonymous.getParam("Martin"));
-
-
     }
-
 }
