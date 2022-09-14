@@ -1,4 +1,4 @@
-package org.estafet.java8.Interfaces_default_and_static_methods;
+package estafet.java8.Interfaces_default_and_static_methods;
 
 public interface MatemathicOperations {
     /*

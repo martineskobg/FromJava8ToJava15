@@ -1,4 +1,4 @@
-package org.estafet.java10;
+package estafet.java10;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.estafet.java8.javaBase64;
+package estafet.java8.javaBase64;
 
 import java.util.Base64;
 

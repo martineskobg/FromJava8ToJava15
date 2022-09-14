@@ -1,4 +1,4 @@
-package org.estafet.java8.javaParallelArraySorting;
+package estafet.java8.javaParallelArraySorting;
 
 import java.util.Arrays;
 

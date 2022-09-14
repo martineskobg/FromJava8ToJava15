@@ -1,8 +1,7 @@
-package org.estafet.java9.stream.api;
+package estafet.java9.stream.api;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class StreamApiExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.estafet.java8.javaOptional;
+package estafet.java8.javaOptional;
 
 import java.util.Optional;
 

@@ -1,7 +1,5 @@
-package org.estafet.java10;
+package estafet.java10;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.List;
 
 public class LvtiExample {

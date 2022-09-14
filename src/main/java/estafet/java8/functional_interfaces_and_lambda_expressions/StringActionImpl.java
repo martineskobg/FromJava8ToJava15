@@ -1,4 +1,4 @@
-package org.estafet.java8.functional_interfaces_and_lambda_expressions;
+package estafet.java8.functional_interfaces_and_lambda_expressions;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

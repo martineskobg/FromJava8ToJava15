@@ -1,4 +1,4 @@
-package org.estafet.java8.javaBase64.javaNIO;
+package estafet.java8.javaBase64.javaNIO;
 
 import java.io.BufferedReader;
 import java.io.File;

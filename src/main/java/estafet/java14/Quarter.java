@@ -1,7 +1,9 @@
-package estafet.java13;
+package estafet.java14;
+
+import java.time.Month;
 
 public class Quarter {
-    public static void printTheQuarter(Month month){
+    public static int getTheQuarter(Month month){
         int quarter  = 0;
         switch (month){
             case JANUARY, FEBRUARY, MARCH -> quarter = 1;
@@ -10,7 +12,7 @@ public class Quarter {
             case OCTOBER, NOVEMBER, DECEMBER -> quarter = 4;
             default -> throw new IllegalStateException("Invalid Month: " + month);
         }
-
+        return quarter;
     }
 
 }

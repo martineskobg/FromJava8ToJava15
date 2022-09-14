@@ -1,4 +1,4 @@
-package org.estafet.java8.javaOptional;
+package estafet.java8.javaOptional;
 
 public class OptionalExample {
     public static void main(String[] args) {

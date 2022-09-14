@@ -1,4 +1,4 @@
-package org.estafet.java8.javaStreamApi;
+package estafet.java8.javaStreamApi;
 
 import java.util.Arrays;
 import java.util.List;

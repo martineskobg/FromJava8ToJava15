@@ -1,7 +1,6 @@
-package org.estafet.java8.javaTimeApi;
+package estafet.java8.javaTimeApi;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
 
 public class DateTimeExample {

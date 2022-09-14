@@ -1,4 +1,4 @@
-package org.estafet.java9.interfaces_2_2;
+package estafet.java9.interfaces_2_2;
 
 public class Main {
 

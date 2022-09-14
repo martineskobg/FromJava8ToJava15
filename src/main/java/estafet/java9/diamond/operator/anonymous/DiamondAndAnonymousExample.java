@@ -1,4 +1,4 @@
-package org.estafet.java9.diamond.operator.anonymous;
+package estafet.java9.diamond.operator.anonymous;
 
 public class DiamondAndAnonymousExample {
     public static void main(String[] args){

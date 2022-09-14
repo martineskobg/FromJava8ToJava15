@@ -1,4 +1,4 @@
-package org.estafet.java8.javaStringJoiner;
+package estafet.java8.javaStringJoiner;
 
 import java.util.StringJoiner;
 

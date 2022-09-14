@@ -1,4 +1,4 @@
-package org.estafet.java8.javaCoreApi;
+package estafet.java8.javaCoreApi;
 
 import java.io.IOException;
 import java.util.Comparator;

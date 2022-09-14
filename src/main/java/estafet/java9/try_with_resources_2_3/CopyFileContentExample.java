@@ -1,4 +1,4 @@
-package org.estafet.java9.try_with_resources_2_3;
+package estafet.java9.try_with_resources_2_3;
 
 import java.io.File;
 import java.io.IOException;
