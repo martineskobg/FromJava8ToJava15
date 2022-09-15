@@ -10,7 +10,7 @@ public class StreamApiExample {
 
         //1. Print the stream before a given part of the stream
         System.out.println("Task 1:");
-        sa.useTakeWhile(supplierNames);
+        sa.useTakeWhile(supplierNames, "sup5");
         System.out.println("*********\n");
 
         //2. Print the stream after a given part of the stream

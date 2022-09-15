@@ -20,8 +20,8 @@ public class StreamApi {
      * Print the stream before a given part of the stream
      * @param list String
      */
-    public void useTakeWhile(List<String> list) {
-        list.stream().takeWhile(o -> !o.isEmpty()).forEach(System.out::println);
+    public void useTakeWhile(List<String> list, String value) {
+        list.stream().takeWhile(o -> !o.equals(value)).forEach(System.out::println);
     }
 
     /**

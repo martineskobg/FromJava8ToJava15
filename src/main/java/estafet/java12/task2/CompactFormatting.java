@@ -1,7 +1,8 @@
-package estafet.java12;
+package estafet.java12.task2;
 
 import java.math.RoundingMode;
 import java.text.NumberFormat;
+import java.util.List;
 import java.util.Locale;
 
 public class CompactFormatting {
@@ -27,29 +28,29 @@ public class CompactFormatting {
     /**
      * Prints number by using NumberFormat
      * @param numberFormat NumberFormat
-     * @param number long
+     * @param numbers long
      */
-    public static void printFormattedNumber(NumberFormat numberFormat, long number){
-        System.out.println(numberFormat.format(number));
+    public static void printFormattedNumber(NumberFormat numberFormat, List<Long> numbers){
+        numbers.forEach(n-> System.out.println( numberFormat.format(n)));
     }
 
     /**
      * Print compact rounded down short format
      * @param nfShort NumberFormat
-     * @param number long
+     * @param numbers long
      */
-    public static void printCompactRoundedDownShort(NumberFormat nfShort, long number) {
+    public static void printCompactRoundedDownShort(NumberFormat nfShort, List<Long> numbers) {
         nfShort.setRoundingMode(RoundingMode.DOWN);
-        System.out.println(nfShort.format(number));
+        numbers.forEach(n-> System.out.println(nfShort.format(n)));
     }
 
     /**
      * Print compact rounded UP long format
      * @param nfLong NumberFormat
-     * @param number long
+     * @param numbers long
      */
-    public static void printCompactRoundedUpLong(NumberFormat nfLong, long number) {
+    public static void printCompactRoundedUpLong(NumberFormat nfLong, List<Long> numbers) {
         nfLong.setRoundingMode(RoundingMode.UP);
-        System.out.println(nfLong.format(number));
+        numbers.forEach(n-> System.out.println(nfLong.format(n)));
     }
 }

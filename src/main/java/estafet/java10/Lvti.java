@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 // Local Variable Type Inference or LVTI in Java 10
+// We can Declare local variables, without specifying the datatype
 public class Lvti {
 
     /**
@@ -18,6 +19,8 @@ public class Lvti {
         System.out.println(intList.stream()
                 .filter(n -> n > number)
                 .findFirst()
+                // New method orElseThrow().
+                // If there is no value present in this Optional instance, then this method throws the exception
                 .orElseThrow(NoSuchElementException::new));
     }
 
@@ -27,6 +30,8 @@ public class Lvti {
      */
     public static void printIntList() {
 
+        //  Can be used only inside method definitions,
+        // initialization blocks like for-loops and if-else blocks
         int[] myArr = new int[]{1, 2, 3, 4, 5};
         // Using var to init List<int>
         var myList = new ArrayList<>();

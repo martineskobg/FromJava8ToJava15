@@ -1,4 +1,4 @@
-package estafet.java12;
+package estafet.java12.task3;
 
 public class Student {
    private String name;
