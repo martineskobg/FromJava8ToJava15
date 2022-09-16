@@ -106,9 +106,13 @@ public class Main {
         String str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                 "\nLorem Ipsum has been the industry's standard dummy";
 
-        System.out.println("Print a given string indented");
-        System.out.println(str.indent(5));
-        System.out.println("Print the string using describeConstable()");
+        System.out.println("Print a given after using indent and transform methods!");
+        String strForTransforming = "This text will be used in transform method!";
+        // Use transform and indent methods
+        String transformedStr = strForTransforming.transform(s->s +str).transform(String::toUpperCase).indent(5);
+        System.out.println(transformedStr);
+
+        System.out.println("\nPrint the string using describeConstable()");
         // Returns an {@link Optional} containing the nominal descriptor for this instance, which is the instance itself.
         Optional<String> optionalStr = str.describeConstable();
         System.out.println(optionalStr);

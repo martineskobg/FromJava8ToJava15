@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b877d5f7-c48b-4be1-9283-6386e15ab0b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/task3/StudentUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java10/Lvti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java10/Lvti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java10/LvtiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java10/LvtiExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java11/LocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java11/LocalVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java11/MyFileCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/CompactFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/task2/CompactFormatting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/MyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/task3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/diamond/operator/anonymous/DiamondAndAnonymousExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/diamond/operator/anonymous/DiamondAndAnonymousExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/diamond/operator/anonymous/MyAnonymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/diamond/operator/anonymous/MyAnonymous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/interfaces_2_2/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/interfaces_2_2/MathOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/stream/api_2_4/StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/stream/api_2_4/StreamApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/stream/api_2_4/StreamApiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/stream/api_2_4/StreamApiExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/try_with_resources_2_3/CopyFileContentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/try_with_resources_2_3/CopyFileContentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java9/try_with_resources_2_3/FileContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java9/try_with_resources_2_3/FileContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/content/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/content/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +63,7 @@
       <recent name="C:\Users\Martin\Documents\Training Projects\Java8ToJava15\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamApiExample">
+  <component name="RunManager" selected="Application.estafet.java12.Main">
     <configuration name="CopyFileContentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estafet.java9.try_with_resources_2_3.CopyFileContentExample" />
       <module name="Java8ToJava15" />
@@ -151,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.estafet.java12.Main" />
         <item itemvalue="Application.StreamApiExample" />
         <item itemvalue="Application.CopyFileContentExample" />
         <item itemvalue="Application.estafet.java11.Main" />
-        <item itemvalue="Application.estafet.java12.Main" />
         <item itemvalue="Application.LvtiExample" />
       </list>
     </recent_temporary>
@@ -172,6 +152,7 @@
       <workItem from="1663009992588" duration="29931000" />
       <workItem from="1663249258224" duration="1869000" />
       <workItem from="1663251269170" duration="7492000" />
+      <workItem from="1663314711062" duration="1611000" />
     </task>
     <servers />
   </component>
