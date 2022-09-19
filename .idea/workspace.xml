@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b877d5f7-c48b-4be1-9283-6386e15ab0b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java17/sealed/BatMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java17/sealed/SpiderMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/estafet/java17/sealed/SuperMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +47,39 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/OpenJDK/jdk-12.0.2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Program Files/OpenJDK/jdk-12.0.2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15234375",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="estafet.java17.sealed" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Martin\Documents\Training Projects\Java8ToJava15\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Documents\Training Projects\Java8ToJava15\src\main\java\estafet" />
       <recent name="C:\Users\Martin\Documents\Training Projects\Java8ToJava15\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.estafet.java12.Main">
-    <configuration name="CopyFileContentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estafet.java9.try_with_resources_2_3.CopyFileContentExample" />
+  <component name="RunManager" selected="Application.estafet.java17.sealed.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estafet.java16.records.Main" />
       <module name="Java8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estafet.java9.try_with_resources_2_3.*" />
+          <option name="PATTERN" value="estafet.java16.records.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LvtiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estafet.java10.LvtiExample" />
+    <configuration name="estafet.java15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estafet.java15.Main" />
       <module name="Java8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estafet.java10.*" />
+          <option name="PATTERN" value="estafet.java15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estafet.java9.stream.api_2_4.StreamApiExample" />
+    <configuration name="estafet.java16.stream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estafet.java16.stream.Main" />
       <module name="Java8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estafet.java9.stream.api_2_4.*" />
+          <option name="PATTERN" value="estafet.java16.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="estafet.java11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estafet.java11.Main" />
+    <configuration name="estafet.java17.pm_switch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estafet.java17.pm_switch.Main" />
       <module name="Java8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estafet.java11.*" />
+          <option name="PATTERN" value="estafet.java17.pm_switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="estafet.java12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estafet.java12.Main" />
+    <configuration name="estafet.java17.sealed.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estafet.java17.sealed.Main" />
       <module name="Java8ToJava15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estafet.java12.task1.*" />
+          <option name="PATTERN" value="estafet.java17.sealed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.estafet.java12.Main" />
-        <item itemvalue="Application.StreamApiExample" />
-        <item itemvalue="Application.CopyFileContentExample" />
-        <item itemvalue="Application.estafet.java11.Main" />
-        <item itemvalue="Application.LvtiExample" />
+        <item itemvalue="Application.estafet.java17.sealed.Main" />
+        <item itemvalue="Application.estafet.java17.pm_switch.Main" />
+        <item itemvalue="Application.estafet.java16.stream.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.estafet.java15.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,8 @@
       <workItem from="1663009992588" duration="29931000" />
       <workItem from="1663249258224" duration="1869000" />
       <workItem from="1663251269170" duration="7492000" />
-      <workItem from="1663314711062" duration="1611000" />
+      <workItem from="1663314711062" duration="3564000" />
+      <workItem from="1663571239269" duration="15419000" />
     </task>
     <servers />
   </component>
