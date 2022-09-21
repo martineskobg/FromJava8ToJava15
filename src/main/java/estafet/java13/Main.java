@@ -10,6 +10,8 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 public class Main {
+
+    // IS NOT READY SKIP FOR CODE REVIEW
     public static void main(String[] args) throws IOException {
         listModules("src/main/resources");
 

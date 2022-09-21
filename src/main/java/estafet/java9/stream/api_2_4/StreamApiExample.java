@@ -1,4 +1,4 @@
-package estafet.java9.stream.api;
+package estafet.java9.stream.api_2_4;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,12 +10,12 @@ public class StreamApiExample {
 
         //1. Print the stream before a given part of the stream
         System.out.println("Task 1:");
-        sa.useOfTakeWhile(supplierNames);
+        sa.useTakeWhile(supplierNames, "sup5");
         System.out.println("*********\n");
 
         //2. Print the stream after a given part of the stream
         System.out.println("Task 2:");
-        sa.useOfDropWhile(supplierNames, "sup5");
+        sa.useDropWhile(supplierNames, "sup5");
         System.out.println("*********\n");
 
         // 3. Print the numbers between 20 and 27

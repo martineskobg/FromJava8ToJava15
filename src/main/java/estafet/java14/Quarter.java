@@ -3,6 +3,11 @@ package estafet.java14;
 import java.time.Month;
 
 public class Quarter {
+    /**
+     * Prints the quarter depending on the month
+     * @param month Month
+     * @return int
+     */
     public static int getTheQuarter(Month month){
         int quarter  = 0;
         switch (month){

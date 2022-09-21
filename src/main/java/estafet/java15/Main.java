@@ -7,6 +7,7 @@ public class Main {
         String address = "Sofia, Mladost 3, 354";
         String salary = "6500BGN";
 
+        // Formatted string using text blocks
         String info = """
                 Name: %s
                 Phone: %s
