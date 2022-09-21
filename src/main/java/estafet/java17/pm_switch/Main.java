@@ -13,6 +13,7 @@ public class Main {
     }
 
     static String patternMatchingSwitch(Object o){
+        //Java 17 Task 1
         return switch (o){
             case null -> "We can pass null value to the switch";
             case Integer i -> String.format("int %d", i);

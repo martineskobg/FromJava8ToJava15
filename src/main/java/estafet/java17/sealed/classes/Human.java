@@ -6,6 +6,7 @@ package estafet.java17.sealed.classes;
 // 3. Make it non-sealed (can be extended)
 
 public sealed class Human permits Man, Woman, Developer{
+    //Java 17 Task 2
     @Override
     public String toString() {
         return "Human{}";

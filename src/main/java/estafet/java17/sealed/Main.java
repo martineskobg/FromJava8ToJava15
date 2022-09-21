@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    //Java 17 Task 2
     public static void main(String[] args) {
         List<Human> humans = new ArrayList<>();
         humans.add(new Human());

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b877d5f7-c48b-4be1-9283-6386e15ab0b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java12/task3/StudentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java12/task3/StudentUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/records/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estafet/java16/stream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estafet/java16/stream/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,7 @@
       <workItem from="1663249258224" duration="1869000" />
       <workItem from="1663251269170" duration="7492000" />
       <workItem from="1663314711062" duration="3564000" />
-      <workItem from="1663571239269" duration="28278000" />
+      <workItem from="1663571239269" duration="30769000" />
     </task>
     <servers />
   </component>

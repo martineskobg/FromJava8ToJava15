@@ -8,6 +8,7 @@ What we get from this definition
  Records are Immutable & Final data
   */
 
+//Java 16 Task 1
 public record Product(String name, int price, boolean inStock) {
     public Product {
         if (price < 0) {

@@ -6,6 +6,7 @@ public class Main {
         System.out.println(product);
 
         // We can implement and use records as the follow
+        //Java 16 Task 1
         record ProductFromMain(Product product, boolean discounted) {
         }
         System.out.println(new ProductFromMain(product, false));
