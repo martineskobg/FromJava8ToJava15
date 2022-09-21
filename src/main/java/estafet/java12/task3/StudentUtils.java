@@ -25,6 +25,11 @@ public class StudentUtils {
                 ));
     }
 
+    /**
+     * Returns the count of all excellent grades
+     * @param students List of Students
+     * @return int
+     */
     public static int getCountOfExcellentGrades(List<Student> students) {
         int count = 0;
         Map<Double, List<Student>> byGrade = students.stream().collect(Collectors.groupingBy(Student::getGrade));
@@ -39,13 +44,18 @@ public class StudentUtils {
         return count;
     }
 
+    /**
+     * Returns all students with excellent grade
+     * @param students List of Students
+     * @return Lists of Students
+     */
     public static List<Student> collectStudentsWithExcellentGrade(List<Student> students) {
         List<Student> excellentStudents = new ArrayList<>();
         Map<Double, List<Student>> byGrade = students.stream().collect(Collectors.groupingBy(Student::getGrade));
         double maxGrade = Collections.max(byGrade.keySet());
 
         // Print all students with max grade
-        System.out.println("\nStudents with excellent grade");
+        System.out.println("\nStudents with max grade");
         for (Map.Entry<Double, List<Student>> entry : byGrade.entrySet()) {
             if (entry.getKey() >= 5.50) {
                 if (entry.getKey() == maxGrade) {
